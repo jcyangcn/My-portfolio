@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import PlaceIcon from '@mui/icons-material/Place';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import '../assets/styles/Main.scss';
 
@@ -21,6 +22,15 @@ function Main() {
           <p className="eyebrow">AI/LLM Evaluation · Computational Genomics · Precision Medicine</p>
           <h1>Douglas Guilherme</h1>
           <p className="role">Bioinformatics Machine Learning Specialist</p>
+          <p className="hero-meta">
+            <span><PlaceIcon fontSize="small" /> Recife, PE, Brazil</span>
+            <a href="https://www.linkedin.com/in/douglas-guinunes" target="_blank" rel="noreferrer">
+              <LinkedInIcon fontSize="small" /> linkedin.com/in/douglas-guinunes
+            </a>
+            <a href="https://github.com/jcyangcn" target="_blank" rel="noreferrer">
+              <GitHubIcon fontSize="small" /> github.com/jcyangcn
+            </a>
+          </p>
           <p className="summary">
             5+ years building and evaluating AI-driven genomic models — from raw sequencing pipelines to clinical interpretation,
             with a core focus on catching false-positive pathogenic calls, hallucinated pathway inferences, and weak biological reasoning.

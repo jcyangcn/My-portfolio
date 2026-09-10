@@ -47,9 +47,33 @@
 
     .role {
         font-size: 1.35rem;
-        margin: 8px 0 18px;
+        margin: 8px 0 12px;
         color: var(--muted);
         font-weight: 500;
+    }
+
+    .hero-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        margin: 0 0 18px;
+        font-size: 0.98rem;
+        color: var(--muted);
+
+        span, a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--muted);
+        }
+
+        a:hover {
+            color: var(--accent);
+        }
+
+        svg {
+            font-size: 1.1rem;
+        }
     }
 
     .summary {
