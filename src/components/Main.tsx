@@ -11,7 +11,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/Douglas.jpg`} alt="Douglas Guilherme" />
+          <img src={`${process.env.PUBLIC_URL}/Douglas.jpg?v=2`} alt="Douglas Guilherme" />
         </div>
         <div className="content">
           <div className="social_icons">
