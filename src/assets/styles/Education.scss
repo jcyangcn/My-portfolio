@@ -1,0 +1,80 @@
+.education-container {
+  padding: 6% 10%;
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.edu-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+
+  h3 {
+    margin: 6px 0 8px;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.3rem;
+  }
+
+  p {
+    color: var(--muted);
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+.edu-label {
+  color: var(--accent) !important;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.edu-meta {
+  margin-bottom: 10px !important;
+  font-weight: 500;
+}
+
+.cert-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 20px;
+}
+
+.cert-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg-elevated);
+
+  strong {
+    color: var(--text);
+  }
+
+  span {
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .education-container {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .edu-grid,
+  .cert-list {
+    grid-template-columns: 1fr;
+  }
+}
