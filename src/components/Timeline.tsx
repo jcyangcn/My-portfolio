@@ -9,21 +9,21 @@ const roles = [
   {
     date: "Jan 2024 – Present",
     title: "Bioinformatics Machine Learning Specialist",
-    subtitle: "Neoprospecta · Florianópolis, Brazil",
+    subtitle: "Nita Alimentos · Florianópolis, Brazil",
     points: [
-      "Led ML pipelines for digital microbiological diagnostics across 3 release cycles.",
-      "Cut contamination false-positive rates by 32% with versioned neural-network models.",
-      "Scaled PostgreSQL genomic metadata for 500,000+ samples and 99.9% uptime on Kubernetes."
+      "Led enterprise ML pipelines for digital microbiological diagnostics across 3 production releases.",
+      "Reduced contamination false-positive flags by 32% and saved 150+ hours of manual review each month.",
+      "Audited AI variant and contamination reports against NCBI, ClinVar, and curated pathways, catching false positives in 15% of automated runs."
     ]
   },
   {
     date: "Oct 2023 – Dec 2023",
     title: "AI/ML Research Associate – Transcriptomics",
-    subtitle: "BioDecision Analytics · São Paulo, Brazil",
+    subtitle: "Mosten · São Paulo, Brazil",
     points: [
       "Owned BDASeq predictive models and GCP infrastructure from prototype to production.",
-      "Reduced differential expression report time from 12s to 2.3s on BigQuery.",
-      "Cut production regression bugs by 45% through stronger test coverage."
+      "Cut differential expression report time from 12s to 2.3s on BigQuery.",
+      "Reduced production regression defects by 45% with automated testing and CI checks."
     ]
   },
   {
@@ -31,9 +31,9 @@ const roles = [
     title: "Genomic Data Scientist",
     subtitle: "DNA GTx Bioinformatics · Natal, Brazil",
     points: [
-      "Improved D-Krypt variant interpretation efficiency by 35% with React and Python.",
-      "Reached 95% clinician satisfaction on primary diagnostic workflows.",
-      "Shipped a reusable bioinformatics component library adopted across 3 product squads."
+      "Accelerated D-Krypt clinical variant triage by 35% with React and Python.",
+      "Reached 95% clinician satisfaction on primary variant filtering workflows.",
+      "Shipped 20+ production features on time across a 20-month tenure."
     ]
   },
   {
@@ -56,7 +56,7 @@ function Timeline() {
         <h1 className="section-title">Experience</h1>
         <p className="section-lead">
           From academic structural genomics to production diagnostics platforms — partnering with scientists,
-          clinicians, and product teams to ship validated genomic AI.
+          clinicians, and quality teams to validate genomic AI against biological benchmarks.
         </p>
         <VerticalTimeline>
           {roles.map((role) => (

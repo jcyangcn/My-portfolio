@@ -4,8 +4,8 @@ import '../assets/styles/Project.scss';
 const publications = [
   {
     kicker: "Brain Sciences · 2025",
-    title: "AI-Enhanced Transcriptomic Discovery of Druggable Targets for Huntington's Disease",
-    description: "Contributing author. Applied transcriptomic machine learning to surface molecular targets for a neurodegenerative indication.",
+    title: "Enhanced Transcriptomic Discovery of Druggable Targets for Huntington's Disease",
+    description: "Contributing author. Applied transcriptomic analysis to surface molecular targets for a neurodegenerative indication.",
     tag: "Publication"
   },
   {
@@ -25,18 +25,18 @@ const publications = [
 const selectedWork = [
   {
     title: "Digital microbiological diagnostics",
-    org: "Neoprospecta",
-    description: "End-to-end ML pipelines, contamination-risk models, and analytical dashboards that cut interpretation time by 40%."
+    org: "Nita Alimentos",
+    description: "Enterprise ML pipelines, contamination-risk models, and AI-output audits that cut diagnostic decision time by 40%."
   },
   {
     title: "BDASeq transcriptomics platform",
-    org: "BioDecision Analytics",
-    description: "Full-stack analytical features with GCP ingestion, BigQuery optimization, and research-partner documentation."
+    org: "Mosten",
+    description: "Full-stack analytical features with GCP ingestion, BigQuery optimization, and partner onboarding documentation."
   },
   {
     title: "D-Krypt variant prioritization",
     org: "DNA GTx Bioinformatics",
-    description: "React and Python components that improved variant interpretation efficiency by 35% for clinical users."
+    description: "React and Python components that accelerated clinical variant triage by 35% for diagnostic teams."
   }
 ];
 
@@ -46,8 +46,8 @@ function Project() {
         <p className="section-kicker">Selected work</p>
         <h1 className="section-title">Research &amp; platforms</h1>
         <p className="section-lead">
-            Peer-reviewed research, conference work, and production genomic platforms — the same through-line as the resume:
-            validated models, clinical usability, and scalable bioinformatics infrastructure.
+            Peer-reviewed research, conference work, and production genomic platforms — with the same through-line as the resume:
+            validated models, audited AI outputs, and scalable bioinformatics infrastructure.
         </p>
 
         <div className="work-grid">

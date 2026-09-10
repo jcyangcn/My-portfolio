@@ -10,8 +10,14 @@ function Education() {
         <article className="edu-card">
           <p className="edu-label">Graduate</p>
           <h3>Master of Science in Bioinformatics</h3>
-          <p className="edu-meta">Universidade Federal do Rio Grande do Norte (UFRN) · Natal, Brazil · Expected 2026</p>
-          <p>Research focus: integration of artificial intelligence and transcriptomic data for molecular target identification.</p>
+          <p className="edu-meta">Universidade Federal do Rio Grande do Norte (UFRN) · Natal, Brazil</p>
+          <p>All core coursework completed. Research focus: integration of AI and transcriptomic data for molecular target identification (thesis pending).</p>
+        </article>
+        <article className="edu-card">
+          <p className="edu-label">Technology degree</p>
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <p className="edu-meta">Fatec Baixada Santista Rubens Lara · Feb 2022 – Jun 2025</p>
+          <p>CST / Diploma Tecnólogo. Full-stack development, SQL/NoSQL and ETL, machine learning fundamentals, and cybersecurity practices.</p>
         </article>
         <article className="edu-card">
           <p className="edu-label">Undergraduate</p>

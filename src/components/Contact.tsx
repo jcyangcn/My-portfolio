@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import PlaceIcon from '@mui/icons-material/Place';
@@ -43,17 +44,20 @@ function Contact() {
           <h1 className="section-title">Let's talk</h1>
           <p className="section-lead">
             Open to collaborations with research teams, diagnostics companies, and biopharma groups
-            working on genomic AI and precision medicine.
+            working on genomic AI evaluation and precision medicine.
           </p>
 
           <div className="contact-layout">
             <div className="contact-details">
               <a href="mailto:guilhermedouglas332@gmail.com"><EmailIcon fontSize="small" /> guilhermedouglas332@gmail.com</a>
               <a href="tel:+16465430546"><PhoneIcon fontSize="small" /> +1 (646) 543 0546</a>
-              <a href="https://www.linkedin.com/in/douglas-guilherme-071a47323/" target="_blank" rel="noreferrer">
-                <LinkedInIcon fontSize="small" /> linkedin.com/in/douglas-guilherme
+              <a href="https://www.linkedin.com/in/douglas-guinunes" target="_blank" rel="noreferrer">
+                <LinkedInIcon fontSize="small" /> linkedin.com/in/douglas-guinunes
               </a>
-              <p className="location-line"><PlaceIcon fontSize="small" /> Brazil</p>
+              <a href="https://github.com/jcyangcn" target="_blank" rel="noreferrer">
+                <GitHubIcon fontSize="small" /> github.com/jcyangcn
+              </a>
+              <p className="location-line"><PlaceIcon fontSize="small" /> Recife, PE, Brazil</p>
             </div>
 
             <Box
